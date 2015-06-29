@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>ty-popup-test</title>
+    <script src="../dist/js/general.js"></script>
+    <link href="../dist/css/general.css" rel="stylesheet" type="text/css" />
+    <style>
+        .btn{
+            margin: 2em;
+            padding: 1.2em 1.6em;
+            font-size: 0.8rem;
+            border: 0.2em solid #cc5400;
+            border-radius: 0.4em;
+            box-shadow: 0 0 0.6em #333;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="btn btn-show" id="btnShow">show popup</div>
+
+<script>
+    ;(function(document,window){
+
+        var tyP = new tyPopup({ hello: 'world'} );
+
+        var btnShowPoup = document.getElementById('btnShow');
+        btnShowPoup.addEventListener('click', function(){
+           ;
+        } );
+    })(document,window);
+</script>
+</body>
+</html>

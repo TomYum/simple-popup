@@ -1,0 +1,24 @@
+{
+  "name": "ty-simple-popup",
+  "version": "0.0.0",
+  "homepage": "https://github.com/TomYum/simple-popup",
+  "authors": [
+    "Tom.Yum. aka Artem Khmilevsky <hart2005@gmail.com>"
+  ],
+  "description": "Simple popup",
+  "keywords": [
+    "popup",
+    "js",
+    "frontend",
+    "simple",
+    "popup"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
